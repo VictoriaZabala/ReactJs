@@ -3,12 +3,8 @@
     display: flex;
     flex-wrap: wrap; }
   
-  .productos div {
-    display: inline-block;
-    margin: auto; }
-  
   .tarjeta {
-    display: flex;
+    display: inline-flex;
     padding: 0.5em; }
   
   .tarjeta h5 {

@@ -1,9 +1,11 @@
 import React from "react";
-import "./cartwidget.css";
 import cartImg from "./cart.png";
+import "./CartWidget.css"
 
 export const CartWidget = () => {
     return (
-        <img src={cartImg} id="img-carrito" width="40px" height="40px" alt="imagen carrito de compras"/>
+        <img src={cartImg} className="carrito" alt="imagen carrito de compras" />
     );
-  };
+
+};
+export default CartWidget;
