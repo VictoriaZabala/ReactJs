@@ -1,6 +1,7 @@
-import logo from './logo1.png';
 import './App.css';
-import { NavBar } from "./components/NavBar";
+import { NavBar } from "./components/NavBar/NavBar";
+import { ItemListContainer } from './components/ItemListContainer/ItemListContainer';
+
 
 
 function App() {
@@ -8,20 +9,9 @@ function App() {
     
     <div className="App">
       <NavBar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Pawttery
-        </p>
-        <a
-          className="App-link"
-          href="https://www.pawttery.com.ar/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Visita nuestro sitio ❤︎
-        </a>
-      </header>
+      <ItemListContainer />
+
+      
     </div>
   );
 }

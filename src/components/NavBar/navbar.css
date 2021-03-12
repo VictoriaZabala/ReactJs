@@ -1,0 +1,19 @@
+.menu ul {
+    font-family: "Poiret One", cursive;
+    font-size: 2em;
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    white-space: pre; }
+  
+  .menu__item {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 0.5em; }
+  
+  .menu__item:hover {
+    background: #d9cee0;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px; }
