@@ -1,4 +1,4 @@
-.carrito img {
-    height: 200px;
-    weight: 200px;
+.carrito {
+    height: 50px;
+    float: right;
 }
